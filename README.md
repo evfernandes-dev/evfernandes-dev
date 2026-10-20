@@ -15,27 +15,30 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 ---
 
-## Tech stack
+## Tech Stack
 
 **Back-End & APIs**
 - Java, Spring Boot, Spring Data JPA
-- REST APIs and Bean Validation
+- REST APIs, HTTP, JSON and Bean Validation
 - Python
-- MySQL
+- SQL and MySQL
 
-**Automation & Integration**
-- n8n workflows, Webhooks
-- JSON, Google Sheets and Gmail integrations
-- Consuming public REST APIs
+**Automation & Integrations**
+- n8n workflow automation
+- Webhooks and REST API integrations
+- JSON data processing
+- Google Sheets and Gmail integrations
 
-**Tools**
-- Docker, Git, GitHub, Maven
+**Databases & Tools**
+- MySQL, Oracle and PostgreSQL
+- Git and GitHub
+- Docker
 - VS Code
 
-**Also worked with**
+**Additional Experience**
+- React and TypeScript for front-end practice projects
 - PHP
-- React and TypeScript (front-end for practice projects)
-- Gemini API
+- Gemini API and AI-powered application integrations
 
 ---
 
