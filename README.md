@@ -87,4 +87,4 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 
 ---
 
-*Open to internship opportunities in Java Back-End, software engineering, API development and automation.*
+
