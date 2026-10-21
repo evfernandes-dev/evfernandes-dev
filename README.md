@@ -61,23 +61,10 @@ Python desktop application that helps plan the dispensing of Valproate (250 mg a
 
 **Technologies:** Python, CustomTkinter.
 
-### [Automatic Email Organizer](https://github.com/evfernandes-dev/n8n-email-organizer)
-Automation that classifies emails into Finance, Support, Sales or Other using predefined keywords. The same rule-based logic is implemented both in Python (reading and writing JSON) and inside an n8n workflow.
-
-**Technologies:** Python, JavaScript, n8n, JSON.
-
 ### [USD Exchange Rate Alert](https://github.com/evfernandes-dev/n8n-alerta-dolar)
 n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from a public API, evaluates the value in a Switch node, and either records it in Google Sheets or sends a Gmail alert.
 
 **Technologies:** n8n, REST API, Webhook, Google Sheets, Gmail.
-
----
-
-## Other projects
-
-- [DIO - Simple Task Organizer (n8n)](https://github.com/evfernandes-dev/dio-n8n-organizador-tarefas) — small n8n automation that routes a sample task by priority, built as a DIO challenge.
-- [Document Translator](https://github.com/evfernandes-dev/tradutor-documentos) — Python desktop application that translates TXT, PDF, DOCX and other document formats, with OCR support for images.
-- [IDEON](https://github.com/evfernandes-dev/IDEON) — gamified educational platform built for a hackathon (React, TypeScript, Supabase, Gemini API).
 
 ---
 
