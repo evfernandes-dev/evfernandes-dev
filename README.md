@@ -37,7 +37,7 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 - Google Sheets and Gmail integrations
 
 **Databases & Tools**
-- MySQL, Oracle and PostgreSQL
+- MySQL and Oracle 
 - Git and GitHub
 - Docker
 - VS Code
