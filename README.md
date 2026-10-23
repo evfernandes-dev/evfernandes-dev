@@ -56,6 +56,11 @@ REST API for managing bank accounts (create, list, check balance, deposit, withd
 
 **Technologies:** Java, Spring Boot, Spring Data JPA, MySQL, React, TypeScript.
 
+### [Automação de Afiliados Shopee com n8n](https://github.com/evfernandes-dev/shopee-afiliados-n8n)
+Automação desenvolvida para apoiar o fluxo de divulgação de produtos afiliados da Shopee, integrando etapas do processo e reduzindo tarefas manuais por meio de workflows automatizados no n8n.
+
+**Technologies:** n8n, Webhooks, REST API, JSON
+
 ### [Valproate Calculator](https://github.com/evfernandes-dev/calculadora-valproato)
 Python desktop application that helps plan the dispensing of Valproate (250 mg and 500 mg) in a public pharmacy. It accounts for tablets the patient already has and calculates, month by month, how many sealed boxes to dispense and the remaining balance.
 
