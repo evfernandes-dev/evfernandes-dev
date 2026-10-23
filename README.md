@@ -56,8 +56,8 @@ REST API for managing bank accounts (create, list, check balance, deposit, withd
 
 **Technologies:** Java, Spring Boot, Spring Data JPA, MySQL, React, TypeScript.
 
-### [Automação de Afiliados Shopee com n8n](https://github.com/evfernandes-dev/shopee-afiliados-n8n)
-Automação desenvolvida para apoiar o fluxo de divulgação de produtos afiliados da Shopee, integrando etapas do processo e reduzindo tarefas manuais por meio de workflows automatizados no n8n.
+### [Shopee Affiliate Automation with n8n](https://github.com/evfernandes-dev/shopee-afiliados-n8n)
+n8n workflow automation built to streamline the process of promoting Shopee affiliate products. It integrates multiple steps to reduce manual work by automating the affiliate promotion workflow.
 
 **Technologies:** n8n, Webhooks, REST API, JSON
 
