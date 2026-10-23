@@ -82,8 +82,17 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 
 ## Connect
 
-- GitHub: [@evfernandes-dev](https://github.com/evfernandes-dev)
-- LinkedIn: [Emanuel Vitor Fernandes](https://www.linkedin.com/in/emanuel-vitor-fernandes-6a3796421)
+<p align="left">
+  <a href="https://github.com/evfernandes-dev">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/emanuel-vitor-fernandes-6a3796421">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:emanuelvitorfn7@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/>
+  </a>
+</p>
 
 ---
 
