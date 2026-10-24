@@ -82,7 +82,6 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 - **DevOps and Deployment:** Docker, containerization, Linux fundamentals, and application deployment.
 - **Cloud Computing:** Oracle Cloud Infrastructure (OCI), cloud hosting, and server configuration.
 - **Software Development Tools:** Git, GitHub, version control, debugging, and collaborative development.
-- **Software Architecture and Testing:** Layered architecture, modular design, unit testing fundamentals, and code maintainability.
 ---
 
 ## Connect
