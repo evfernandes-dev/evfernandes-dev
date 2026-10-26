@@ -28,7 +28,7 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 - Java, Spring Boot, Spring Data JPA
 - REST APIs, HTTP and JSON.
 - Python
-- SQL and MySQL
+- MySQL
 
 **Automation & Integrations**
 - n8n workflow automation
