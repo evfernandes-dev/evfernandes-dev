@@ -26,7 +26,7 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 **Back-End & APIs**
 - Java, Spring Boot, Spring Data JPA
-- REST APIs, HTTP, JSON and Bean Validation
+- REST APIs, HTTP and JSON.
 - Python
 - SQL and MySQL
 
@@ -37,14 +37,11 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 - Google Sheets and Gmail integrations
 
 **Databases & Tools**
-- MySQL and Oracle 
+- Oracle 
 - Git and GitHub
 - Docker
-- VS Code
 
 **Additional Experience**
-- React and TypeScript for front-end practice projects
-- PHP
 - Gemini API and AI-powered application integrations
 
 ---
