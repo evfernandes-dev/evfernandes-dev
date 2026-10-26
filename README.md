@@ -34,7 +34,6 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 - n8n workflow automation
 - Webhooks and REST API integrations
 - JSON data processing
-- Google Sheets and Gmail integrations
 
 **Databases & Tools**
 - Oracle 
