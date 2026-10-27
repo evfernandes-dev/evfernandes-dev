@@ -72,7 +72,6 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 - **Back-end Development:** Java, Spring Boot, object-oriented programming, and clean code principles.
 - **REST API Development:** API design, HTTP methods, request handling, data validation, and exception handling.
 - **Database Management:** SQL, relational database design, CRUD operations, and data persistence.
-- **DevOps and Deployment:** Docker, containerization, Linux fundamentals, and application deployment.
 - **Cloud Computing:** Oracle Cloud Infrastructure (OCI), cloud hosting, and server configuration.
 - **Software Development Tools:** Git, GitHub, version control, debugging, and collaborative development.
 ---
