@@ -6,19 +6,17 @@ Recife, Brazil
 
 I'm a Systems Analysis and Development student focused on back-end development. I build REST APIs with Java and Spring Boot, small desktop tools and utilities in Python, and process automations with n8n, working with relational databases and clean code to solve practical problems. I'm looking for an internship in software development where I can keep learning and contribute to real projects.
 
-<p align="left">
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" alt="Java"/>
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" alt="Spring Boot"/>
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" alt="Python"/>
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" alt="MySQL"/>
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" alt="Docker"/>
-  
-  <img src="https://cdn.simpleicons.org/n8n/EA4B71" width="50" alt="n8n"/>
+<!-- Ícones (modelo escuro, igual ao do segundo print) -->
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,python,mysql,docker,n8n&theme=dark" alt="Stack" />
+</p>
+
+<!-- Badges de IA e automação -->
+<p>
+  <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat&logo=anthropic&logoColor=white" alt="Anthropic Claude" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" alt="n8n" />
 </p>
 ---
 
