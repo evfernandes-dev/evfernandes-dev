@@ -45,27 +45,32 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 ## Featured projects
 
+## Featured projects
+
+### [Help Desk Pro](https://github.com/evfernandes-dev/helpdesk-pro)
+Help desk ticket management system: REST API built with Java 21, Spring Boot and MySQL.
+
+**Technologies:** Java 21, Spring Boot, MySQL
+
 ### [Digital Banking API](https://github.com/evfernandes-dev/digital-banking-api)
 REST API for managing bank accounts (create, list, check balance, deposit, withdraw) built with Java and Spring Boot, persisting to MySQL with Spring Data JPA. Includes input validation, business rules, centralized error handling, and a test suite for the service and controller layers.
 
-**Technologies:** Java, Spring Boot, Spring Data JPA, MySQL, React, TypeScript.
+**Technologies:** Java, Spring Boot, Spring Data JPA, MySQL
+
+### [Valproate Calculator](https://github.com/evfernandes-dev/calculadora-valproato)
+Python desktop application that helps plan the dispensing of Valproate (250 mg and 500 mg) in a public pharmacy. It accounts for tablets the patient already has and calculates, month by month, how many sealed boxes to dispense and the remaining balance.
+
+**Technologies:** Python, CustomTkinter
 
 ### [Shopee Affiliate Automation with n8n](https://github.com/evfernandes-dev/shopee-afiliados-n8n)
 n8n workflow automation built to streamline the process of promoting Shopee affiliate products. It integrates multiple steps to reduce manual work by automating the affiliate promotion workflow.
 
 **Technologies:** n8n, Webhooks, REST API, JSON
 
-### [Valproate Calculator](https://github.com/evfernandes-dev/calculadora-valproato)
-Python desktop application that helps plan the dispensing of Valproate (250 mg and 500 mg) in a public pharmacy. It accounts for tablets the patient already has and calculates, month by month, how many sealed boxes to dispense and the remaining balance.
-
-**Technologies:** Python, CustomTkinter.
-
 ### [USD Exchange Rate Alert](https://github.com/evfernandes-dev/n8n-alerta-dolar)
 n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from a public API, evaluates the value in a Switch node, and either records it in Google Sheets or sends a Gmail alert.
 
-**Technologies:** n8n, REST API, Webhook, Google Sheets, Gmail.
-
----
+**Technologies:** n8n, REST API, Webhook, Google Sheets, Gmail
 
 ## Currently Learning
 
