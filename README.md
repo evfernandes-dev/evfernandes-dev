@@ -1,4 +1,4 @@
-# Emanuel Vitor Fernandes
+# Emanuel Vitor Fernandes Nascimento
 
 **Back-End Developer** | Java · Spring Boot · Python · MySQL · REST APIs · Docker · n8n
 
