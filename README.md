@@ -26,9 +26,15 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 **Back-End & APIs**
 - Java, Spring Boot, Spring Data JPA
-- REST APIs, HTTP and JSON.
-- Python
-- MySQL
+- REST APIs, HTTP and JSON
+- Python, FastAPI
+- MySQL and SQLite
+- pytest and integration tests
+
+**AI & LLM**
+- Ollama and local LLM execution
+- Tool calling, structured prompts and agent evaluation
+- Read-only tool design and input validation
 
 **Automation & Integrations**
 - n8n workflow automation
@@ -36,7 +42,7 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 - JSON data processing
 
 **Databases & Tools**
-- Oracle 
+- Oracle
 - Git and GitHub
 - Docker
 
@@ -47,7 +53,15 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 ## Featured projects
 
-## Featured projects
+### [Estoque IA](https://github.com/evfernandes-dev/estoque-ia) · AI agent with tool calling
+
+[![CI](https://github.com/evfernandes-dev/estoque-ia/actions/workflows/ci.yml/badge.svg)](https://github.com/evfernandes-dev/estoque-ia/actions/workflows/ci.yml)
+
+AI agent that answers natural-language questions about a fictional pharmacy inventory. The LLM never writes SQL: it selects validated Python tools that query SQLite in read-only mode. Runs locally with Ollama and ships with a FastAPI API, web UI, CLI, deterministic routing, tests, offline/online evaluation, Docker and CI.
+
+<img src="https://raw.githubusercontent.com/evfernandes-dev/estoque-ia/main/docs/interface.png" width="620" alt="Estoque IA web interface"/>
+
+**Technologies:** Python, FastAPI, SQLite, Ollama, LLM tool calling, Docker, pytest, GitHub Actions.
 
 ### [Help Desk Pro](https://github.com/evfernandes-dev/helpdesk-pro)
 Help desk ticket management system: REST API built with Java 21, Spring Boot and MySQL.
@@ -80,6 +94,8 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 - **REST API Development:** API design, HTTP methods, request handling, data validation, and exception handling.
 - **Database Management:** SQL, relational database design, CRUD operations, and data persistence.
 - **Software Development Tools:** Git, GitHub, version control, debugging, and collaborative development.
+- **AI Engineering:** LLM tool calling, local models with Ollama, prompt design, and agent evaluation.
+
 ---
 
 ## Connect
