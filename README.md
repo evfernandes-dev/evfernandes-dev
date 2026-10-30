@@ -59,8 +59,6 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 AI agent that answers natural-language questions about a fictional pharmacy inventory. The LLM never writes SQL: it selects validated Python tools that query SQLite in read-only mode. Runs locally with Ollama and ships with a FastAPI API, web UI, CLI, deterministic routing, tests, offline/online evaluation, Docker and CI.
 
-<img src="https://raw.githubusercontent.com/evfernandes-dev/estoque-ia/main/docs/interface.png" width="620" alt="Estoque IA web interface"/>
-
 **Technologies:** Python, FastAPI, SQLite, Ollama, LLM tool calling, Docker, pytest, GitHub Actions.
 
 ### [Help Desk Pro](https://github.com/evfernandes-dev/helpdesk-pro)
