@@ -85,16 +85,31 @@ function escapeXml(value) {
   })[char]);
 }
 
+const gridW = weeks * step - (step - cellSize);
+const gridH = 7 * step - (step - cellSize);
+
 const rects = cells.map((cell) => {
   const x = (heatX + cell.week * step).toFixed(1);
   const y = (heatY + cell.day * step).toFixed(1);
-  const fill = levels[Math.max(0, Math.min(4, cell.level))];
-  return `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" rx="${radius}" fill="${fill}"><title>${escapeXml(cell.date)}: ${cell.count} contribution${cell.count === 1 ? '' : 's'}</title></rect>`;
+  const level = Math.max(0, Math.min(4, cell.level));
+  const fill = levels[level];
+  const delay = level > 0
+    ? ` style="animation-delay:-${((cell.week * 0.31 + cell.day * 0.47) % 4.4).toFixed(2)}s"`
+    : '';
+  const classes = level > 0 ? `cell lvl${level}${level === 4 ? ' hot' : ''}` : 'lvl0';
+  return `<rect class="${classes}" x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" rx="${radius}" fill="${fill}"${delay}><title>${escapeXml(cell.date)}: ${cell.count} contribution${cell.count === 1 ? '' : 's'}</title></rect>`;
 }).join('\n    ');
 
 const monthSvg = monthLabels.map((month) => (
   `<text x="${month.x.toFixed(1)}" y="48" fill="#6b8ba3" font-size="8" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="0.6">${month.label}</text>`
 )).join('\n    ');
+
+const dustSvg = [
+  [62, 132], [124, 60], [238, 124], [352, 34],
+  [472, 124], [590, 54], [672, 112], [324, 22]
+].map(([cx, cy], index) => (
+  `<circle class="dust" cx="${cx}" cy="${cy}" r="${index % 2 ? 1.2 : 1.8}" fill="#00e5ff" style="animation-delay:-${(index * 0.9).toFixed(1)}s"/>`
+)).join('\n  ');
 
 const streakLabel = `${streak} ${streak === 1 ? 'day' : 'days'}`;
 
@@ -108,19 +123,54 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
       <stop offset="0" stop-color="#00e5ff"/>
       <stop offset="1" stop-color="#8a2be2"/>
     </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="gridClip">
+      <rect x="${heatX}" y="${heatY}" width="${gridW.toFixed(1)}" height="${gridH.toFixed(1)}" rx="3"/>
+    </clipPath>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="url(#panel)" stroke="#17304d"/>
-  <rect x="18" y="14" width="48" height="2" rx="1" fill="url(#accent)"/>
+  <style>
+    .cell{animation:cellWave 4.4s ease-in-out infinite}
+    .cell.hot{animation-duration:2.2s}
+    .title{animation:titlePulse 3.2s ease-in-out infinite}
+    .total{animation:totalPulse 5s ease-in-out infinite}
+    .streak{animation:streakPulse 2.4s ease-in-out infinite}
+    .border{animation:borderPulse 4s ease-in-out infinite}
+    .accent{animation:accentPulse 3.6s ease-in-out infinite}
+    .scan{animation:scanMove 5.6s linear infinite}
+    .dust{animation:dustFloat 7s ease-in-out infinite;opacity:.2}
+    @keyframes cellWave{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes titlePulse{0%,100%{opacity:1}50%{opacity:.68}}
+    @keyframes totalPulse{0%,100%{opacity:1}50%{opacity:.86}}
+    @keyframes streakPulse{0%,100%{opacity:.78}50%{opacity:1}}
+    @keyframes borderPulse{0%,100%{stroke-opacity:.55}50%{stroke-opacity:1}}
+    @keyframes accentPulse{0%,100%{opacity:.55}50%{opacity:1}}
+    @keyframes scanMove{0%{transform:translateX(-90px)}100%{transform:translateX(550px)}}
+    @keyframes dustFloat{0%,100%{transform:translateY(0);opacity:.18}50%{transform:translateY(-7px);opacity:.6}}
+  </style>
 
-  <text x="18" y="32" fill="#7be9ff" font-size="10" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="2.4">COMMIT ACTIVITY</text>
-  <text x="18" y="70" fill="#eafcff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="800">${total.toLocaleString('en-US')}</text>
-  <text x="18" y="86" fill="#7fa6bd" font-size="9" font-family="Segoe UI, Arial, sans-serif" letter-spacing="0.6">contributions · last 12 months</text>
+  <rect class="border" x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="12" fill="url(#panel)" stroke="#17304d"/>
+  <rect class="accent" x="18" y="14" width="48" height="2" rx="1" fill="url(#accent)"/>
+
+  <text class="title" x="18" y="32" fill="#7be9ff" font-size="10" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="2.4" filter="url(#glow)">COMMIT ACTIVITY</text>
+  <text class="total" x="18" y="70" fill="#eafcff" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="800">${total.toLocaleString('en-US')}</text>
+  <text x="18" y="86" fill="#7fa6bd" font-size="9" font-family="Segoe UI, Arial, sans-serif" letter-spacing="0.6">contributions &#183; last 12 months</text>
 
   <line x1="18" y1="100" x2="186" y2="100" stroke="#17304d" stroke-width="1"/>
 
   <text x="18" y="118" fill="#7fa6bd" font-size="8" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1.8">CURRENT STREAK</text>
-  <text x="18" y="142" fill="#00e5ff" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="800">${streakLabel}</text>
+  <text class="streak" x="18" y="142" fill="#00e5ff" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="800" filter="url(#glow)">${streakLabel}</text>
 
   ${monthSvg}
 
@@ -128,9 +178,15 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
     ${rects}
   </g>
 
+  <g clip-path="url(#gridClip)">
+    <rect class="scan" x="${heatX}" y="${heatY}" width="70" height="${gridH.toFixed(1)}" fill="url(#scanGrad)"/>
+  </g>
+
   <text x="${heatX}" y="156" fill="#5d7e95" font-size="8" font-family="Segoe UI, Arial, sans-serif" letter-spacing="0.5">Less</text>
   ${levels.map((color, index) => `<rect x="${heatX + 34 + index * 12}" y="149" width="8" height="8" rx="1.5" fill="${color}"/>`).join('')}
   <text x="${heatX + 34 + levels.length * 12 + 2}" y="156" fill="#5d7e95" font-size="8" font-family="Segoe UI, Arial, sans-serif" letter-spacing="0.5">More</text>
+
+  ${dustSvg}
 </svg>
 `;
 
