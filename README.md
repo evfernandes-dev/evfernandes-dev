@@ -56,21 +56,13 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=evfernandes-dev&theme=github_dark" alt="Profile details" />
+<img width="620" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=evfernandes-dev&theme=github_dark" alt="Profile details" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=evfernandes-dev&theme=github_dark" alt="GitHub stats" /><img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=evfernandes-dev&theme=github_dark&utcOffset=-3" alt="Productive time" />
+<img width="300" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=evfernandes-dev&theme=github_dark" alt="GitHub stats" /><img width="300" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=evfernandes-dev&theme=github_dark&utcOffset=-3" alt="Productive time" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=evfernandes-dev&theme=github_dark" alt="Repositories per language" /><img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=evfernandes-dev&theme=github_dark" alt="Most commit language" />
+<img width="300" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=evfernandes-dev&theme=github_dark" alt="Repositories per language" /><img width="300" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=evfernandes-dev&theme=github_dark" alt="Most commit language" />
 
-<img width="100%" src="https://streak-stats.demolab.com?user=evfernandes-dev&theme=radical&hide_border=true&background=00000000&stroke=00E5FF&ring=FF2E97&fire=00E5FF&currStreakLabel=00E5FF&dates=8B949E" alt="GitHub streak" />
-
-<img width="100%" src="https://ghchart.rshah.org/00E5FF/evfernandes-dev" alt="GitHub contribution chart" />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Contribution graph animation" src="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake.svg" />
-</picture>
+<img width="495" src="https://streak-stats.demolab.com?user=evfernandes-dev&theme=radical&hide_border=true&background=00000000&stroke=00E5FF&ring=FF2E97&fire=00E5FF&currStreakLabel=00E5FF&dates=8B949E" alt="GitHub streak" />
 
 </div>
 
