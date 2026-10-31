@@ -1,23 +1,26 @@
-# Emanuel Vitor Fernandes Nascimento
+<div align="center">
 
-**Back-End Developer** | Java · Spring Boot · Python · MySQL · REST APIs · Docker · n8n
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Emanuel%20Vitor%20Fernandes%20Nascimento&fontSize=34&fontColor=FFFFFF&fontAlignY=36&animation=twinkling&desc=Back-End%20Developer&descAlignY=56&descSize=18" alt="Emanuel Vitor Fernandes Nascimento" />
 
-Recife, Brazil
+<a href="https://github.com/evfernandes-dev">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=680&lines=Java+%C2%B7+Spring+Boot+%C2%B7+Python+%C2%B7+MySQL;REST+APIs+%C2%B7+Docker+%C2%B7+n8n;Recife%2C+Brazil" alt="Java · Spring Boot · Python · MySQL | REST APIs · Docker · n8n | Recife, Brazil" />
+</a>
 
-I'm a Systems Analysis and Development student focused on back-end development. I build REST APIs with Java and Spring Boot, small desktop tools and utilities in Python, and process automations with n8n, working with relational databases and clean code to solve practical problems. I'm looking for an internship in software development where I can keep learning and contribute to real projects.
-
-<!-- Ícones (modelo escuro, igual ao do segundo print) -->
 <p>
   <img src="https://skillicons.dev/icons?i=java,spring,python,mysql,docker,n8n&theme=dark" alt="Stack" />
 </p>
 
-<!-- Badges de IA e automação -->
 <p>
   <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat&logo=anthropic&logoColor=white" alt="Anthropic Claude" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI" />
   <img src="assets/gemini-badge.png" alt="Gemini" width="67" height="20" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white" alt="n8n" />
 </p>
+
+</div>
+
+I'm a Systems Analysis and Development student focused on back-end development. I build REST APIs with Java and Spring Boot, small desktop tools and utilities in Python, and process automations with n8n, working with relational databases and clean code to solve practical problems. I'm looking for an internship in software development where I can keep learning and contribute to real projects.
+
 ---
 
 ## Tech Stack
@@ -46,6 +49,30 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 **Additional Experience**
 - Gemini API and AI-powered application integrations
+
+---
+
+## GitHub Activity
+
+<div align="center">
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=evfernandes-dev&theme=github_dark" alt="Profile details" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=evfernandes-dev&theme=github_dark" alt="GitHub stats" /><img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=evfernandes-dev&theme=github_dark&utcOffset=-3" alt="Productive time" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=evfernandes-dev&theme=github_dark" alt="Repositories per language" /><img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=evfernandes-dev&theme=github_dark" alt="Most commit language" />
+
+<img width="100%" src="https://streak-stats.demolab.com?user=evfernandes-dev&theme=radical&hide_border=true&background=00000000&stroke=00E5FF&ring=FF2E97&fire=00E5FF&currStreakLabel=00E5FF&dates=8B949E" alt="GitHub streak" />
+
+<img width="100%" src="https://ghchart.rshah.org/00E5FF/evfernandes-dev" alt="GitHub contribution chart" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Contribution graph animation" src="https://raw.githubusercontent.com/evfernandes-dev/evfernandes-dev/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
 
 ---
 
@@ -84,6 +111,8 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 
 **Technologies:** n8n, REST API, Webhook, Google Sheets, Gmail
 
+---
+
 ## Currently Learning
 
 - **Back-end Development:** Java, Spring Boot, object-oriented programming, and clean code principles.
@@ -110,4 +139,8 @@ n8n workflow triggered by a Webhook that fetches the USD/BRL exchange rate from 
 
 ---
 
+<div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=twinkling" alt="Footer" />
+
+</div>
