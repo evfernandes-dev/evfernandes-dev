@@ -1,4 +1,4 @@
-name: Update commit graph
+name: Update profile graphs
 
 on:
   schedule:
@@ -25,14 +25,19 @@ jobs:
       - name: Generate commit graph
         run: node scripts/commit-graph.mjs
 
+      - name: Generate language graph
+        run: node scripts/language-graph.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commit-activity.svg
+          git add assets/commit-activity.svg assets/language-graph.svg
           if git diff --staged --quiet; then
-            echo "Commit graph is already up to date"
+            echo "Graphs are already up to date"
           else
-            git commit -m "chore: atualiza grafico de commits"
+            git commit -m "chore: atualiza graficos do perfil"
             git push
           fi
