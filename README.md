@@ -56,9 +56,9 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 <div align="center">
 
-<img width="620" src="assets/commit-activity.svg?v=4" alt="Commit activity graph" />
+<img width="620" src="assets/commit-activity.svg?v=5" alt="Commit activity graph" />
 
-<img width="300" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=evfernandes-dev&theme=github_dark" alt="Repositories per language" />
+<img width="620" src="assets/language-graph.svg?v=1" alt="Repositories by language" />
 
 </div>
 
