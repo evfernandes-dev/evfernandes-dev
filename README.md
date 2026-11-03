@@ -52,18 +52,6 @@ I'm a Systems Analysis and Development student focused on back-end development. 
 
 ---
 
-## GitHub Activity
-
-<div align="center">
-
-<img width="620" src="assets/commit-activity.svg?v=6" alt="Commit activity graph" />
-
-<img width="620" src="assets/language-graph.svg?v=2" alt="Repositories by language" />
-
-</div>
-
----
-
 ## Featured projects
 
 ### [Estoque IA](https://github.com/evfernandes-dev/estoque-ia) · AI agent with tool calling
