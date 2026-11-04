@@ -1,6 +1,6 @@
 # Emanuel Vitor Fernandes Nascimento
 
-Systems Analysis and Development student at Estácio, focused on back-end development with Java and Spring Boot. In academic and personal projects, I build REST APIs, work with relational databases, and use Python and n8n to automate routines and integrate systems.
+Systems Analysis and Development student at Estácio, focused on back-end development with Java and Spring Boot. In academic and personal projects, I build REST APIs, use Python and n8n to automate routines and integrate systems.
 
 I am looking for an internship in back-end development where I can contribute to real projects and keep learning. I am currently developing my knowledge in application architecture, object-oriented design, database modeling, automated testing and API development.
 
