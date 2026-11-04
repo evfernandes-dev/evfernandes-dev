@@ -1,35 +1,45 @@
-﻿# Emanuel Vitor Fernandes Nascimento
+# Emanuel Vitor Fernandes Nascimento
 
-Systems Analysis and Development student at Est├ício, focused on back-end development with Java and Spring Boot. I build REST APIs, work with relational databases, and use Python and n8n to automate routines and integrate systems.
+Systems Analysis and Development student at Estácio, focused on back-end development with Java and Spring Boot. In academic and personal projects, I build REST APIs, work with relational databases, and use Python and n8n to automate routines and integrate systems.
 
 I am looking for an internship in back-end development where I can contribute to real projects and keep learning. I am currently developing my knowledge in application architecture, object-oriented design, database modeling, automated testing and API development.
 
-## Core stack
+## Focus
 
-- **Back-end:** Java, Spring Boot, Spring Data JPA, REST APIs
-- **Databases:** MySQL, SQL, SQLite
-- **Python:** FastAPI, automation scripts
-- **Automation and tools:** n8n, Docker, Git, GitHub
-- **Also used in projects:** React, TypeScript, Ollama, pytest, GitHub Actions
-- **Infrastructure:** Oracle Cloud (hosting the n8n automation)
+Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python. I also use n8n and Docker to automate small workflows and integrate services.
 
-## Currently learning
+## Technologies I use
+
+**Main**
+
+- Java and Spring Boot
+- REST APIs and Spring Data JPA
+- Python
+- SQL, MySQL and SQLite
+
+**Also used in projects**
+
+- n8n, Docker, Git and GitHub
+- FastAPI, Ollama and pytest
+- React, TypeScript and GitHub Actions
+
+**Currently learning**
 
 - Application architecture and object-oriented design
 - Database modeling and SQL
-- Automated testing and API development
+- Automated testing and API design
 
 ## Featured projects
 
 ### [Help Desk Pro](https://github.com/evfernandes-dev/helpdesk-pro)
 
-REST API for support ticket management built with Java 21, Spring Boot 3.4, Spring Data JPA and MySQL. It includes CRUD operations, ticket status lifecycle, Bean Validation, Swagger UI, Docker Compose and unit tests for the service layer.
+REST API for support ticket management built with Java 21, Spring Boot 3.4, Spring Data JPA and MySQL. It includes CRUD operations, a ticket status lifecycle, Bean Validation, Swagger UI, Docker Compose and unit tests for the service layer.
 
-`Java` `Spring Boot` `Spring Data JPA` `MySQL` `Docker`
+`Java` `Spring Boot` `MySQL` `Docker`
 
 ### [Digital Banking API](https://github.com/evfernandes-dev/digital-banking-api)
 
-REST API for bank accounts built with Java 25, Spring Boot 4 and MySQL. It covers account creation, balance queries, deposits and withdrawals, with DTOs, validation, business rules, centralized error handling and service/controller tests. The project also has a React + TypeScript front end.
+REST API for bank accounts built with Java 25, Spring Boot 4 and MySQL. It covers account creation, balance queries, deposits and withdrawals, with DTOs, validation, business rules, centralized error handling and tests. The repository also includes a small React + TypeScript front end.
 
 `Java` `Spring Boot` `MySQL` `REST API` `React` `TypeScript`
 
@@ -53,8 +63,8 @@ Python desktop application with CustomTkinter and MySQL that helps plan valproat
 
 ## Education
 
-**Systems Analysis and Development (ADS)** ÔÇö Est├ício, Recife, Brazil<br>
-2026.2 ÔÇô 2029.1 (expected)
+**Systems Analysis and Development (ADS)** — Estácio, Recife, Brazil<br>
+2026.2 – 2029.1 (expected)
 
 ## Contact
 
