@@ -15,7 +15,7 @@ Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python.
 - Java and Spring Boot
 - REST APIs and Spring Data JPA
 - Python
-- SQL, MySQL and SQLite
+- MySQL
 
 **Also used in projects**
 
