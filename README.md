@@ -74,7 +74,7 @@ Python desktop application with CustomTkinter and MySQL that helps plan valproat
 ## Education
 
 **Systems Analysis and Development (ADS)** — Estácio, Recife, Brazil<br>
-2026.2 – 2029.1 (expected)
+
 
 ## Contact
 
