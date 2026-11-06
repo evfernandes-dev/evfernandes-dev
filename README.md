@@ -31,11 +31,12 @@ Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python.
 - pytest and GitHub Actions
 - React and TypeScript
 
-**Currently learning**
-
-- Application architecture and object-oriented design
-- Database modeling and SQL
-- Automated testing and API design
+Currently Learning
+- Software Architecture and Object-Oriented Design (OOP)
+- Database Design, Modeling and SQL
+- Automated Testing and Software Quality
+- REST API Design and Development
+- AI Engineering and LLM Application Development
 
 ## Featured projects
 
