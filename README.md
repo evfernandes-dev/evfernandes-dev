@@ -6,22 +6,30 @@ I am looking for an internship in back-end development where I can contribute to
 
 ## Focus
 
-Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python. I also use n8n and Docker to automate small workflows and integrate services.
+Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python. I'm also interested in AI Engineering, Large Language Models (LLMs), prompt engineering, AI agents and integrating AI models into applications. I use tools like Ollama, n8n and Docker to experiment with AI solutions, automate workflows and build integrations between services.
 
 ## Technologies I use
 
-**Main**
+**Back-end Development**
 
 - Java and Spring Boot
 - REST APIs and Spring Data JPA
-- Python
-- MySQL
+- Python and FastAPI
+- MySQL 
 
-**Also used in projects**
+**AI & LLMs**
 
-- n8n, Docker, Git and GitHub
-- FastAPI, Ollama and pytest
-- React, TypeScript and GitHub Actions
+- Large Language Models (LLMs)
+- Prompt Engineering and AI Agents
+- Tool Calling and AI API Integration
+- Ollama and Open-Source Models
+
+**Tools & Technologies**
+
+- Docker and n8n
+- Git and GitHub
+- pytest and GitHub Actions
+- React and TypeScript
 
 **Currently learning**
 
