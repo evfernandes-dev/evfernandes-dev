@@ -33,11 +33,13 @@ Back-end development with Java and Spring Boot, REST APIs and relational databas
 - pytest
 - React and TypeScript
 
-## Currently learning
+**Currently learning**
 
-- Application architecture and object-oriented design
-- Database modeling and SQL
-- Automated testing and API design
+- AI Engineering and LLM application development
+- Prompt Engineering and AI Agents
+- RAG (Retrieval-Augmented Generation) and Vector Databases
+- LLM Integration, Tool Calling and AI APIs
+- Machine Learning fundamentals and model evaluation
 
 ## Education
 
