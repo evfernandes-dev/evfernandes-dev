@@ -29,7 +29,7 @@ Back-end development with Java and Spring Boot, REST APIs, SQL/MySQL and Python.
 - Docker and n8n
 - Git and GitHub
 - pytest and GitHub Actions
-- React and TypeScript
+
 
 **Currently Learning**
 
