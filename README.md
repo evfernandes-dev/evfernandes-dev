@@ -42,7 +42,6 @@ Back-end development with Java and Spring Boot, REST APIs and relational databas
 ## Education
 
 **Systems Analysis and Development (ADS)** — Estácio, Recife, Brazil<br>
-2026.2 – 2029.1 (expected)
 
 ## Contact
 
