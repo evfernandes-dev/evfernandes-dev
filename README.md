@@ -19,6 +19,9 @@ Back-end development with Java and Spring Boot, REST APIs and relational databas
 **AI & LLMs**
 
 - Ollama (local LLMs)
+- DeepSeek
+- AI agents / n8n automation
+  
 
 **Databases**
 
