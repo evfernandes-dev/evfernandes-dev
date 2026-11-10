@@ -6,7 +6,7 @@ I am looking for an internship in back-end development where I can contribute to
 
 ## Focus
 
-Back-end development with Java and Spring Boot, REST APIs and relational databases. I also use Python, n8n and Docker to automate small workflows and integrate services. My interest in AI engineering and LLMs is complementary, explored through small personal projects.
+My main focus is back-end development with Java and Spring Boot: REST APIs, relational databases (MySQL) and automated tests. I also use Python, n8n, and Docker to automate workflows and integrate services, and I explore applied AI with local Large Language Models (LLMs) through Ollama in personal projects.
 
 ## Technologies I use
 
