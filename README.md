@@ -48,7 +48,7 @@ My main focus is back-end development with Java and Spring Boot: REST APIs, rela
 
 **Systems Analysis and Development (ADS)**  
 Estácio — Recife, Brazil  
-2026 – 2029 (Expected)
+2026 – 2029 
 
 ## Contact
 
