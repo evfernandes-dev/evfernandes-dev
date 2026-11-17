@@ -1,54 +1,66 @@
 # Emanuel Vitor Fernandes Nascimento
 
-Systems Analysis and Development student at Estácio, focused on back-end development with Java and Spring Boot. In academic and personal projects, I build REST APIs and use Python and n8n to automate routines and integrate systems.
+Systems Analysis and Development student at Estácio, focused on **Back-end Development with Java and Spring Boot**.
 
-I am looking for an internship in back-end development where I can contribute to real projects and keep learning. I am currently strengthening my knowledge of application architecture, object-oriented design, database modeling, automated testing and API development.
+I build REST APIs and backend applications through academic and personal projects, working with Java, Spring Data JPA, relational databases and automated testing.
+
+I also use **Python** for application development and automation, and explore **AI agents and LLM integrations** in personal projects using tools such as Ollama and n8n.
+
+I am currently seeking a **Back-end Development Internship** where I can apply my knowledge, contribute to real-world projects and continue growing as a software developer.
 
 ## Focus
 
-My main focus is back-end development with Java and Spring Boot: REST APIs, relational databases (MySQL) and automated tests. I also use Python, n8n, and Docker to automate workflows and integrate services, and I explore applied AI with local Large Language Models (LLMs) through Ollama in personal projects.
+- **Java Back-end:** Java, Spring Boot, Spring Data JPA and REST APIs.
+- **Python Development:** Python, FastAPI and automation.
+- **AI & Integrations:** AI agents, local LLMs, Ollama and API integrations.
+- **Software Engineering:** Relational databases, application architecture and automated testing.
 
-## Technologies I use
+## Technologies I Use
 
 **Back-end Development**
-
-- Java and Spring Boot
-- REST APIs and Spring Data JPA
-- Python and FastAPI
-
-**AI & LLMs**
-
-- Ollama (local LLMs)
-- DeepSeek
-- AI agents / n8n automation
-  
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
+- Python
+- FastAPI
 
 **Databases**
+- SQL
+- MySQL
+- SQLite
 
-- SQL, MySQL and SQLite
+**Testing**
+- JUnit 5
+- Mockito
+- pytest
 
-**Tools & Technologies**
-
+**Tools & Automation**
 - Git and GitHub
 - Docker
 - n8n
-- GitHub Actions
-- pytest
-- React and TypeScript
 
-**Currently learning**
+**AI & LLMs**
+- Ollama (Local LLMs)
+- AI Agents
+- LLM and API Integrations
 
+## Currently Learning
+
+**Back-end Development**
 - Advanced Java and Spring Boot concepts.
 - Software architecture and design principles.
 - Automated testing and application security.
-- Local LLM applications with Ollama.
-- AI agents, API integrations and fundamentals of RAG.
-  
+
+**AI & Automation**
+- AI agents and tool calling.
+- Local LLM applications and RAG fundamentals.
+
 ## Education
 
 **Systems Analysis and Development (ADS)**  
 Estácio — Recife, Brazil  
-2026 – 2029 
+2026 – 2029
 
 ## Contact
 
