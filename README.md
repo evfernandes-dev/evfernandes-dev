@@ -38,11 +38,9 @@ My main focus is back-end development with Java and Spring Boot: REST APIs, rela
 
 **Currently learning**
 
-- AI Engineering and LLM application development
-- Prompt Engineering and AI Agents
-- RAG (Retrieval-Augmented Generation) and Vector Databases
-- LLM Integration, Tool Calling and AI APIs
-- Machine Learning fundamentals and model evaluation
+- Local LLM applications with Ollama.
+- AI agents and API integrations.
+- Fundamentals of RAG and LLM applications.
 
 ## Education
 
