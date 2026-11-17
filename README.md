@@ -38,10 +38,12 @@ My main focus is back-end development with Java and Spring Boot: REST APIs, rela
 
 **Currently learning**
 
+- Advanced Java and Spring Boot concepts.
+- Software architecture and design principles.
+- Automated testing and application security.
 - Local LLM applications with Ollama.
-- AI agents and API integrations.
-- Fundamentals of RAG and LLM applications.
-
+- AI agents, API integrations and fundamentals of RAG.
+  
 ## Education
 
 **Systems Analysis and Development (ADS)**  
