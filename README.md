@@ -48,7 +48,7 @@ I am currently seeking a **Back-end Development Internship** where I can apply m
 ## Currently Learning
 
 **Back-end Development**
-- Advanced Java and Spring Boot concepts.
+- Java and Spring Boot fundamentals, with focus on building REST APIs.
 - Software architecture and design principles.
 - Automated testing and application security.
 
